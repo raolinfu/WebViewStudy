@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+    <h1>我的第一个标题</h1>
+<!--    <p>我的第一个段落。</p>-->
+    <button onclick="add()">JS按钮</button>
+    <div id="msg"></div>
+</body>
+<script type="text/javascript">
+    function add(){
+        window.ToastFunc.showToast();
+    }
+
+    function getData(str) {
+<!--        $('#msg').html(str);-->
+        document.getElementById('msg').innerHTML = str;
+    }
+</script>
+</html>
